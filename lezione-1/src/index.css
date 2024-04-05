@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom Class */
+
+.red{
+  border: red 1px solid;
+}
+
+.green{
+  border: rgb(45, 130, 9) 1px solid;
+}
+
+.pad-30{
+  padding: 30px;
+}
+
+.but-1{
+  padding: 20px;
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(214, 214, 178);
+  color: rgba(5, 41, 27, 0.479);
+  border-radius: 25px;
+  cursor: pointer;
+}

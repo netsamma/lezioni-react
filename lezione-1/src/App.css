@@ -1,3 +1,4 @@
+/* Custom Class */
 .red{
   border: red 1px solid;
 }
@@ -10,6 +11,8 @@
   padding: 30px;
 }
 
+
+/* React class */
 .App {
   text-align: center;
 }
@@ -48,3 +51,4 @@
     transform: rotate(360deg);
   }
 }
+
