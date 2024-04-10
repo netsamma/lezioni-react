@@ -10,3 +10,19 @@ const Card = ({ color, padding, ...otherProps}) => {
 }
 
 export default Card
+
+
+// import React, { useState } from 'react'
+
+// const Card = () => {
+//   const [visible, setVisible] = useState(true);
+ 
+//   return (
+//     <>
+//        <button onClick={()=> setVisible(!visible)}>Mostra</button>
+//        {visible && 'Contenuto nascosto'}
+//     </>
+//   )
+// }
+
+// export default Card
