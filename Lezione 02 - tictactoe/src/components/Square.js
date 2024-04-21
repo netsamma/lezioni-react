@@ -1,12 +1,9 @@
 import styled from "styled-components"
 
-interface SquareProps {
-	symbol: string;
-}
   
-const Square = ({ symbol }: SquareProps) => {
+const Square = (props) => {
   return (
-	<Div>{symbol}</Div>
+	<Div>{props}</Div>
   )
 }
 
